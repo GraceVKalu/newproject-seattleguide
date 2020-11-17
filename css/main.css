@@ -62,6 +62,13 @@ footer {
     padding: 1em;
 }
 
+div.picture1 {
+    width:1000px;
+    height:700px; /*height of your image*/
+    background-image:url(/images\WEbsiteprojectlogo.jpg');
+    margin:; /* If you want no margin */
+    padding:; /*if your want to padding */
+ }
 /* Responsive rules */
 
 /* DESKTOP */
@@ -73,7 +80,7 @@ footer {
     
     h1 {
         width: 79%;
-        padding-left: 1%;
+        padding-left: 1%; 
     }
     
     img.desktop {
@@ -132,4 +139,19 @@ footer {
     img.desktop, img.tablet {
         display: none;
     }
-}
+    * {
+        box-sizing: border-box;
+      }
+      
+      p {
+        float: left;
+        border: solid 1px #000;
+        display: inline-block;
+        width: auto;
+      }
+      
+      img {
+        float: right;
+        display: inline-block;
+      }
+      
